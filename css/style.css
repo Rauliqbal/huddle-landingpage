@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+.btn-outline-pink {
+  color: #ff52bf;
+  background: #fff;
+  border: 1px solid #ff52bf;
+  border-radius: 22px;
+  padding: 8px 28px;
+  font-size: 16px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-pink:hover {
+  border: 1px solid #ff8fd8;
+  color: #ff8fd8;
+}
+
+.btn-pink {
+  color: #fff;
+  background: #ff52bf;
+  border: none;
+  border-radius: 68px;
+  padding: 25px 99px;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.25);
+}
+
+.btn-pink:hover {
+  background: #ff8fd8;
+}
+
+@media (max-width: 375px) {
+  .btn-pink {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+  .btn-outline-pink {
+    font-size: 14px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 78px;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+.container {
+  padding: 0 9%;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.sub-title {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 24px;
+}
+
+.hero {
+  margin-top: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .header {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.hero .desc {
+  font-size: 20px;
+  line-height: 29px;
+  width: 588px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero .btn-pink {
+  margin-top: 52px;
+}
+
+.hero img {
+  margin-top: 104px;
+  width: 100%;
+  max-width: 1035px;
+}
+
+.hero .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 342px;
+}
+
+.hero .numbers .num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .numbers .num .icons {
+  width: 47px;
+}
+
+.hero .numbers .num span {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.hero .numbers .num p {
+  font-size: 24px;
+  text-align: center;
+  color: #9ea7ae;
+}
+
+.one {
+  background: #f6fbff;
+  padding: 50px 0;
+}
+
+.one .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 130px;
+}
+
+.one .content .content-wrapper {
+  width: 511px;
+}
+
+.one .content img {
+  width: 100%;
+  max-width: 520px;
+}
+
+.two {
+  padding: 132px 0;
+}
+
+.two .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 130px;
+}
+
+.two img {
+  width: 100%;
+  max-width: 520px;
+}
+
+.three {
+  background: #f6fbff;
+  padding: 32px 0;
+}
+
+.three .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 130px;
+}
+
+.three img {
+  width: 100%;
+  max-width: 520px;
+}
+
+.cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 180px 0;
+}
+
+.cta .title {
+  font-size: 40px;
+  font-family: "poppins", sans-serif;
+}
+
+.cta .btn-pink {
+  margin-top: 39px;
+}
+
+footer {
+  background: #00252e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 35px 9%;
+  gap: 334px;
+}
+
+footer .footer-content img {
+  color: #fff;
+}
+
+footer .footer-content p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 336px;
+}
+
+footer .footer-content .icon {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+
+footer .footer-content .icon img {
+  margin-right: 16px;
+}
+
+footer .footer-content .social-media {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 22px;
+  margin-top: 82px;
+}
+
+footer .footer-content .social-media .icon {
+  font-size: 32px;
+}
+
+footer .footer-subs {
+  padding: 24px 0;
+}
+
+footer .footer-subs h4 {
+  font-size: 24px;
+  color: #fff;
+}
+
+footer .footer-subs p {
+  font-size: 16px;
+  color: #fff;
+  width: 384px;
+  margin-top: 32px;
+}
+
+footer .footer-subs input {
+  width: 316px;
+  height: 46px;
+  border-radius: 8px;
+  border: none;
+  padding: 0.375rem 0.75rem;
+}
+
+footer .footer-subs .btn-pink {
+  padding: 14px 40px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 42px;
+  margin-top: 40px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 4%;
+  }
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .sub-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  nav .nav-logo img {
+    width: 120px;
+  }
+  .hero .header {
+    font-size: 24px;
+    width: 80%;
+  }
+  .hero .desc {
+    width: 100%;
+    font-size: 16px;
+  }
+  .hero img {
+    max-width: 300px;
+  }
+  .hero .numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 26px;
+  }
+  .hero .numbers .num .icons {
+    width: 32px;
+  }
+  .hero .numbers .num span {
+    font-size: 58px;
+    text-align: center;
+  }
+  .hero .numbers .num p {
+    font-size: 14px;
+  }
+  .one .content .content-wrapper {
+    width: 100%;
+  }
+  .one .content,
+  .two .content,
+  .three .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .cta .title {
+    font-size: 24px;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 35px 7%;
+    gap: 104px;
+  }
+  footer .footer-subs p {
+    width: 100%;
+  }
+  footer .footer-subs input {
+    margin-right: 0;
+    width: 100%;
+    max-width: none;
+  }
+  footer .footer-subs .btn-pink {
+    float: right;
+    margin-top: 16px;
+  }
+  footer .footer-content p {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
